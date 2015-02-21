@@ -1,9 +1,10 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: helvetica, sans-serif, verdana, arial;
   font-size: 13px;
   line-height: 18px;
+  text-align: center;
 }
 
 p, ol, ul, td {
@@ -33,6 +34,37 @@ div {
   &.field, &.actions {
     margin-bottom: 10px;
   }
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border: 7px solid #B7C8CC;
+}
+
+th, td {
+  border: 2px solid #B7C8CC;
+}
+
+th {
+  font-size: 1.1em;
+  background-color: #7D9DA8;
+  color: white;
+  padding: 7px;
+}
+
+tr:nth-child(even) {
+  background: #FFF;
+}
+
+tr:nth-child(odd) {
+  background: #FFF;
+}
+
+td {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 3px;
 }
 
 #notice {
