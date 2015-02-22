@@ -21,7 +21,7 @@
         <td><%= task.notes %></td>
         <td><%= task.due %></td>
         <td><%= task.done %></td>
-        <td><%= task.project_id %></td>
+        <td><%= task.project.name %></td>
         <td><%= link_to 'Show', task %></td>
         <td><%= link_to 'Edit', edit_task_path(task) %></td>
         <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>

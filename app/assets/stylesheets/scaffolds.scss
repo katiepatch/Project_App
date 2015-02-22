@@ -37,6 +37,7 @@ div {
 }
 
 table {
+  margin: auto;
   width: 70%;
   border-collapse: collapse;
   border: 7px solid #B7C8CC;
@@ -54,7 +55,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background: #FFF;
+  background: #DAE7EB;
 }
 
 tr:nth-child(odd) {
